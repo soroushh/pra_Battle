@@ -6,7 +6,7 @@ require 'capybara/rspec'
 require 'rspec'
 
 Capybara.app = Battle
-
+require_relative "./entering_names_helper.rb"
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate

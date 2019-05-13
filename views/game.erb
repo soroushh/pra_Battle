@@ -1,1 +1,3 @@
-<div> <%= session[:player_1_name] %> vs. <%= session[:player_2_name] %> </div>
+<div> <%= session[:player_1_name].name %> vs. <%= session[:player_2_name].name %> </div>
+<div> <%= session[:player_1_name].name %>: <%= session[:player_1_name].hit_point %>HP </div>
+<div> <%= session[:player_2_name].name %>: <%= session[:player_2_name].hit_point %>HP </div>
